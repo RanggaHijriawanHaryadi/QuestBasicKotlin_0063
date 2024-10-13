@@ -38,6 +38,7 @@ fun ConditionalStatement() {
     } catch (e: NumberFormatException) {
         println("Invalid Number")
     }
+}
 
     fun  Perulangan(){
         println()
@@ -66,4 +67,7 @@ fun ConditionalStatement() {
     }
 
 
+fun main(){
+    ConditionalStatement()
+    Perulangan()
 }
