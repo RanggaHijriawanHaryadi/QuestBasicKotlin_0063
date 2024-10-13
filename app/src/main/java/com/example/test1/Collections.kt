@@ -103,4 +103,7 @@ fun ContohMap(){
 
 
 fun main(){
-    println(ContohList())}
+    ContohList()
+    ContohSet()
+    ContohMap()
+}
