@@ -36,6 +36,20 @@ fun ContohList(){
 
 }
 
-    fun main(){
-        println(ContohList())
-    }
+// Set adalah Kumpulan data yangg tidak memiliki posisi atau urutan tertemtu dan hanya menyimpan data unik(tidak ada duplikasi)
+// Set bersifat unordered, artinya data yang dimasukkan tidak memiliki posisi tertentu
+// Set bersifat mutuble dan read only, artinya data yang dimasukkan dapat diubah dan tidak dapat diubah
+// Set Read-Only menggunakan setof
+// Set Mutable menggunakan mutableSetOf
+
+fun ContohSet() {
+    println()
+    println("=== Set ===")
+
+    // Set Read-only
+    val readOnlyAbjad = setOf("A", "B", "C")
+    println(readOnlyAbjad)
+}
+
+fun main(){
+    println(ContohList())}
